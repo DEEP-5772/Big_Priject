@@ -6,6 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../htmlpage.css">
   <title>Assignment_1_HTML</title>
+  <style>
+
+    .maindiv{
+        margin-left: 400px;
+    }
+
+    @media screen and (max-width:785px) {
+        .maindiv{
+            margin-left: 250px;
+            display: block;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (max-width:635px) {
+        .maindiv{
+            margin-left: 20px;
+            display: block;
+            margin-top: 300px;
+        }
+
+        .sidebar{
+            height: auto;
+        }
+    }
+  </style>
 </head>
 
 <body>
@@ -51,9 +77,9 @@
   </div>
 
 
-  <div style="padding-left: 550px">
+  <div class="maindiv">
     <form style="margin-top: 100px">
-      <fieldset style="width: 400px">
+      <fieldset style="width: 350px">
         <legend>Form validation</legend>
         <label for="empName">Employee Name:</label>
         <input type="text" placeholder="Enter your name here" required /><br /><br />

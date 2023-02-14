@@ -6,6 +6,57 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="../htmlpage.css">
   </head>
+  <style>
+    .class1{
+        list-style-type: square;
+         margin-left: 500px;
+    }
+
+    .class2{
+        list-style-type: disc;
+    }
+
+    .class3{
+        list-style-type: disc;
+    }
+
+    .class4{
+        list-style-type: disc;
+    }
+
+    @media screen and (max-width:845px) {
+        .class1{
+            margin-left: 300px;
+        }  
+    }
+
+    @media screen and (max-width:645px) {
+        .class1{
+            margin-left: 170px;
+        }  
+
+        .sidebar{
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width:505px) {
+        .class1{
+            margin-left: 20px;
+        }  
+
+        h2{
+            margin-top: 300px;
+            margin-left: 20px;
+        }
+    }
+
+    @media screen and (max-width:364px) {
+        .class1{
+            margin-left: -40px;
+        }  
+    }
+  </style>
   <body>
 
     <div class="header">
@@ -50,12 +101,12 @@
 
 
   <h2>Different Departments</h2>
-  <ul style="list-style-type: square; margin-left: 500px    ;">
-      <ul style="list-style-type: disc;">
+  <ul class="class1">
+      <ul class="class2">
           <li>Chair Man</li>
-          <ul style="list-style-type: disc;">
+          <ul class="class3">
               <li>CEO</li>
-              <ul style="list-style-type: disc;">
+              <ul class="class4">
                   <li>HR Department
                       <ol>
                           <li>Network Department</li>

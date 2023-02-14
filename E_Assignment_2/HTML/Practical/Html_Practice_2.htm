@@ -6,6 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice_2_HTML</title>
+    <style>
+      .class1{
+        margin-top: 100px; margin-left: 500px
+      }
+
+      @media screen and (max-width:755px) {
+         .class1{
+          margin-left: 250px;
+         }
+
+         .sidebar{height: auto;}
+      }
+
+      @media screen and (max-width:500px) {
+        .class1{
+          margin-top: 300px;
+          margin-left: 50px;
+        }        
+      }
+    </style>
   </head>
   <body>
 
@@ -50,7 +70,7 @@
   </div>
 
 
-    <div style="margin-top: 100px; margin-left: 500px">
+    <div class="class1">
       <table style="width: 50%" border="1">
         <caption style="margin-left: 0">
           <small> This is my report card </small>

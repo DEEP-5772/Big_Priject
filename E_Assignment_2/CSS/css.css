@@ -5,10 +5,8 @@ body
 }
 
 .header{
-  /* position: -webkit-sticky;
-    position: sticky;
-    top: 0; */
-  height: 150px;
+  height: auto;
+  width: auto;
   background-color: #5d6166;
   display: flex;
 }
@@ -18,11 +16,10 @@ body
   width: 90px;
   margin-left: 150px;
   box-shadow: 0 0 50px white;
-  margin-top: 25px;
 }
 
 .links{
-  margin-left: 600px;
+  margin-left: 300px;
   margin-top: 60px;
 }
 
@@ -37,56 +34,274 @@ body
 
 
 .sidebar{
-  /* position: -webkit-sticky;
-  position: sticky;
-  top: 160px; */
   float: left;
   height: auto;
-  width: 400px;
+  width: 300px;
   background-color: #7e858b;
   margin-top: 5px;
 }
 
 .assignment{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.Assignment{
+  margin-top: 10px;
+}
+
+.assignment1{
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.assignment1 a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.assignment2{
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.assignment2{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+
+.practice{
+  margin-top: 15px;
+}
+
+.practice1{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.practice1 a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+} 
+
+.practice2{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.practice2 a{ 
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.CSSImage{
+  margin-top: 50px;
+  margin-left: 450px;
+  width: 500px;
+}
+
+@media screen and (max-width:1460px) {
+
+  body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: #5d6166;
+  display: flex;
+}
+
+.logo1{
+  height: 90px;
+  width: 90px;
+  margin-left: 130px;
+  box-shadow: 0 0 50px white;
+  margin-top: 25px;
+}
+
+.links{
+  margin-left: 200px;
+  margin-top: 60px;
+}
+
+.links a{
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+.sidebar{
+  float: left;
+  height: auto;
+  width: 300px;
+  background-color: #7e858b;
+  margin-top: 5px;
+  margin-left: -50px;
+}
+
+.assignment{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.CSSImage{
+  margin-left: 500px;
+  width: 400px;
+}
+  
+}
+
+@media screen and (max-width:1220px) {
+  .logo1{
+    height: 90px;
+    width: 90px;
     margin-left: 50px;
+    box-shadow: 0 0 50px white;
+    margin-top: 25px;
+  }
+  
+  .links{
+    margin-left: 200px;
+    margin-top: 60px;
+  }
+  
+  .links a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+
+  .sidebar{
+    float: left;
+    height: auto;
+    width: 300px;
+    background-color: #7e858b;
+    margin-top: 5px;
+    margin-left: -50px;
+  }
+
+  .assignment{
     margin-top: 20px;
     font-size: 20px;
     font-family: sans-serif;
   }
 
-  .assignment1{
-    margin-top: 10px;
+  .CSSImage{
+    margin-left: 250px;
+    width: 400px;
   }
+  
+}
 
-  .assignment1 a{
+@media screen and (max-width:1150px) {
+  .logo1{
+    height: 90px;
+    width: 90px;
+    margin-left: 30px;
+    box-shadow: 0 0 50px white;
+  }
+  
+  .links{
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+  
+  .links a{
     text-decoration: none;
-    color: black;
+    margin-left: 25px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width:975px) {
+  .links{
+    margin-left: 10px;
   }
 
-  .Assignment{
-    margin-top: 10px;
+  .CSSImage{
+    margin-left: 140px;
+    height: 300px;
+    margin-top: 300px;
+  }
+}
+
+@media screen and (max-width:925px) {
+.header{
+justify-content: space-between;
+}
+
+  .links{
+    margin-top: 60px;
+    display: block;
+margin-right: 10px;
+margin-bottom: 20px;
   }
 
-.practice1 a{
+  .links a{
     text-decoration: none;
-    color: black;
+    margin-left: 25px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+  }
+
+
+  .sidebar{
+    float: left;
+    height: auto;
+    width: 300px;
+    background-color: #7e858b;
+    margin-top: 5px;
+    margin-left: -70px;
+  } 
+
+  .CSSImage{
+    margin-left: 200px;
+    height: 350px;
+    width: 350px;
+  }
+  
 }
 
-.practice{
-    margin-top: 20px;
+@media screen and (max-width:810px) {
+  .CSSImage{
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    margin-top: 550px;
+  }
 }
 
-.practice1{
-    margin-top: 10px;
-}
-
-.day2{
-    margin-top: 50px;
-}
-
-.CSSImage{
-  margin-top: 50px;
-  height: 600px;
-  width: 600px;
-  margin-left: 500px;
+@media screen and (max-width:530px) {
+  .CSSImage{
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+  }
+  
 }
